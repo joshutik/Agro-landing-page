@@ -1,11 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
+import HeroPage from './Components/HeroPage/HeroPage';
 import NavigationBar from './Components/NavigationBar/Navigation';
 
 function App() {
   return (
     <div className="App">
       <NavigationBar/>
+      <HeroPage/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

@@ -1,0 +1,13 @@
+.about-btn > button {
+    background-color: #163518;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1rem ;
+    color:  #FEFEFE;
+    font-size: 18px;
+    width: 100%;
+}
+
+.about-btn > button:hover {
+    background-color: #A1CFA3;
+}

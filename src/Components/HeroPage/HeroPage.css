@@ -1,0 +1,41 @@
+.hero-page{
+    background-image: url(../Assets/Hero-bg.png);
+    background-size: cover;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.hero-content {
+    margin:14rem auto;
+    width: 50%;
+    text-align: center;
+}
+
+
+.hero-content h1 {
+    font-size: 3.8rem;
+    color: white;
+    
+}
+
+.hero-content > p {
+    color: white;
+    font-size: 2rem;
+}
+
+.hero-btn > button {
+    background-color: #163518;
+    border: none;
+    padding: 1rem 3rem;
+    margin: 2.5rem 0;
+    font-size: 18px;
+    color: #FEFEFE;
+    border-radius: 2rem;
+    
+}
+
+.hero-btn > button:hover {
+    background-color: #82c084;
+}
+
+
