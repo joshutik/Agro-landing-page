@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: #FEFEFE;
+    
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #020202;
+}
+
+li {
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+.nav-btn > button {
+    background-color: #163518;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1rem ;
+    color:  #FEFEFE;
+    font-size: 18px;
+}
+
+.nav-btn > button:hover {
+    background-color: #A1CFA3;
+}
