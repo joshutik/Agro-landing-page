@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import AboutSection from './Components/AboutSection/AboutSection';
 import HeroPage from './Components/HeroPage/HeroPage';
 import NavigationBar from './Components/NavigationBar/Navigation';
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <NavigationBar/>
       <HeroPage/>
+      <AboutSection/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

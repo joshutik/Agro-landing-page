@@ -1,3 +1,37 @@
+.about-us {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+    padding: 3rem 0;
+}
+
+.about-us h2{
+    text-align: center;
+    font-size: 3rem;
+   /* padding: 2rem 0; */
+   margin: 5rem 0 2rem;
+}
+
+.about-text > p {
+    font-size: 20px;
+   padding: 1rem 0;
+
+}
+
+span {
+    color: #43A047;
+    font-size: 30px;
+}
+
+.about-us > div {
+    width: 65%;
+    margin-left: 6rem;
+    line-height: 26px;
+
+}
+
 .about-btn > button {
     background-color: #163518;
     padding: 1rem 2rem;
@@ -11,3 +45,20 @@
 .about-btn > button:hover {
     background-color: #A1CFA3;
 }
+
+.img-1, .img-2 {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.about-img {
+    position: relative;
+    margin: 6rem 0;
+}
+
+.img-2 {
+    position:absolute;
+    top: 8rem;
+    left: -13rem;
+}
+

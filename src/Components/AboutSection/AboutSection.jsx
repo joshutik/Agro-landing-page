@@ -1,5 +1,11 @@
 import React from "react";
-import aboutImg1 from '../Assets/image 2 (1).png'
+import './AboutSection.css'
+import aboutImg1 from '../Assets/aboutimg.png'
+import aboutImg2 from '../Assets/aboutimg2.png'
+
+
+
+
 const AboutSection = () => {
   return (
     <div className="about-us">
@@ -26,7 +32,8 @@ const AboutSection = () => {
       </div>
 
       <div className="about-img">
-        <img src={aboutImg1} alt="farm with crops" />
+        <img src={aboutImg1} alt="farm with crops" className="img-1" />        
+        <img src={aboutImg2} alt="farm with crops" className="img-2" />        
       </div>
     </div>
   );
