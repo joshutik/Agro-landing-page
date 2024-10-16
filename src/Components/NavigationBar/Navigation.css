@@ -42,3 +42,21 @@ li {
 .nav-btn > button:hover {
     background-color: #A1CFA3;
 }
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0;
+        background-color: #FEFEFE;
+        
+    }
+
+    li {
+        display: block;
+        padding: 1rem 0rem;
+    }
+}

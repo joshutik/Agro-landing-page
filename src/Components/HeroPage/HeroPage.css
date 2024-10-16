@@ -1,41 +1,101 @@
-.hero-page{
+
+ /* General Styles */
+.hero-page {
     background-image: url(../Assets/Hero-bg.png);
     background-size: cover;
+    background-position: center;
     min-height: 100vh;
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-content {
-    margin:14rem auto;
-    width: 50%;
+    margin: 0 auto;
+    width: 60%;
     text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
 }
 
-
 .hero-content h1 {
-    font-size: 3.8rem;
+    font-size: 3.5rem;
     color: white;
-    
+    margin-bottom: 1rem;
 }
 
 .hero-content > p {
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .hero-btn > button {
     background-color: #163518;
     border: none;
     padding: 1rem 3rem;
-    margin: 2.5rem 0;
-    font-size: 18px;
+    margin: 2rem 0;
+    font-size: 1.2rem;
     color: #FEFEFE;
     border-radius: 2rem;
-    
+    cursor: pointer;
 }
 
 .hero-btn > button:hover {
     background-color: #82c084;
 }
 
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .hero-content {
+        width: 80%;
+    }
 
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+
+    .hero-content > p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        width: 90%;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content > p {
+        font-size: 1.2rem;
+    }
+
+    .hero-btn > button {
+        padding: 0.8rem 2rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content > p {
+        font-size: 1rem;
+    }
+
+    .hero-btn > button {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}

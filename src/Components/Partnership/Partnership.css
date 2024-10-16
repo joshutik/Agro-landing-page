@@ -1,0 +1,44 @@
+/* .partner {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4rem 0;
+} */
+
+.partner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding: 4rem 0;
+}
+
+.partner img {
+    max-width: 100px; 
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .partner {
+        justify-content: center;
+        gap: 15px; 
+    }
+
+    .partner img {
+        max-width: 80px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .partner {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    .partner img {
+        max-width: 60px;
+    }
+}

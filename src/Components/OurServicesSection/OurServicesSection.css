@@ -48,3 +48,38 @@
 .card-btn>button:hover {
     background-color: #82C084;
 }
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services-cards-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .services-text {
+        font-size: 1.3rem;
+    }
+
+    .card-img > img {
+        max-width: 100%;
+    }
+
+    .services-cards-container {
+        padding: 1rem;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}

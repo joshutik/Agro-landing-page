@@ -1,0 +1,21 @@
+/* YoutubeLink.css */
+.youtubelink {
+    width: 100%;
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .youtubelink {
+        max-width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .youtubelink {
+        max-width: 100%; 
+    }
+}

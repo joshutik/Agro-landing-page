@@ -62,3 +62,32 @@ span {
     left: -13rem;
 }
 
+
+@media (max-width: 768px){
+    .about-us {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 20px;
+        padding: 3rem 0;
+    }
+
+    .about-img {
+        position: relative;
+        margin: 6rem 4rem;
+    }
+
+    .img-1{
+        
+        top: 0rem;
+        left: 4rem;
+    }
+
+    .img-2 {
+        position:absolute;
+        top: 8rem;
+        left: -4rem;
+    }
+}
+

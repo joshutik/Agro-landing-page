@@ -1,26 +1,29 @@
+
+/* Testimonials.css */
 .client-testimonials-section {
     background-color: #38853B;
-    ;
     padding: 4rem 3rem;
     text-align: center;
     color: white;
 }
 
 .client-testimonials-section h2 {
-    font-size: 36px;
+    font-size: 2.2rem;
     margin-bottom: 2rem;
 }
 
 .testimonials-container {
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+
 .testimonial-card {
-    /* background-color: #3c8e6d; */
+
     border: 9.04px #f4f4f4;
     border-radius: 10px;
     background: linear-gradient(142.13deg, rgba(254, 248, 255, 0.21) 1.8%, rgba(254, 248, 255, 0) 99.75%);
@@ -31,6 +34,17 @@
     backdrop-filter: blur(72.04076385498047px)
 }
 
+/* .testimonial-card {
+    background: linear-gradient(142.13deg, rgba(254, 248, 255, 0.21) 1.8%, rgba(254, 248, 255, 0) 99.75%);
+    border-radius: 10px;
+    padding: 2rem;
+    display: ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    backdrop-filter: blur(72px);
+    min-width: 280px;
+} */
+
 .testimonial-text {
     font-size: 1.2rem;
     margin-bottom: 1rem;
@@ -39,15 +53,18 @@
 
 .client-info {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-top: 1rem;
+    text-align: center;
 }
 
 .client-img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin-right: 1rem;
+    margin-bottom: 0.5rem;
     border: 2px solid white;
 }
 
@@ -59,4 +76,44 @@
 .client-details p {
     color: #d1d1d1;
     font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .testimonials-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-card {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    .client-testimonials-section h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .client-testimonials-section {
+        padding: 2rem 1rem;
+    }
+
+    .testimonial-card {
+        max-width: 100%;
+    }
+
+    .client-testimonials-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .testimonial-text {
+        font-size: 1rem;
+    }
+
+    .client-img {
+        width: 50px;
+        height: 50px;
+    }
 }
